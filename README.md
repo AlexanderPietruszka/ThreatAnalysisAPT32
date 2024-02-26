@@ -45,3 +45,20 @@ legitimate traffic.
 
 <h3>Create Kill Chain model</h3>
 <img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/9dd34fe5-3f62-43fc-8f51-b892b2981d76" height="80%" width="80%" alt="Cyber Kill Chain"/>
+<br/><h2>Payload Analysis:</h2>
+<br/><h3>Open Malware Analysis Software</h3>
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/2cb542e0-ae85-4642-bfa8-25bca63ad988" height="80%" width="80%" alt="REMLinux"/>
+
+<br/><h3>Retrieve Sample File</h3>
+APT32 WINDSHIELD malware retrieved courtesy of https://github.com/ytisf/theZoo
+
+<br/><h3>Check Malware Using Security Vendors</h3>
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e46fa3e3-dffe-460e-8e5f-153f5e50419b" height="80%" width="80%" alt="Creating malware hash"/>
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e30588f5-ae8e-4cf3-aa9c-9abecb97391e" height="80%" width="80%" alt="VirusTotal Results"/>
+
+<br/><h3>Aalysis of Test File</h3>
+
+
+<br/><h3>Sandbox</h3>
+
+
