@@ -50,15 +50,17 @@ legitimate traffic.
 <img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/2cb542e0-ae85-4642-bfa8-25bca63ad988" height="80%" width="80%" alt="REMLinux"/>
 
 <br/><h3>Retrieve Sample File</h3>
-APT32 WINDSHIELD malware retrieved courtesy of https://github.com/ytisf/theZoo
+APT32 WINDSHIELD malware retrieved courtesy of https://github.com/ytisf/theZoo.
 
 <br/><h3>Check Malware Using Security Vendors</h3>
 <img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e46fa3e3-dffe-460e-8e5f-153f5e50419b" height="80%" width="80%" alt="Creating malware hash"/>
 <img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e30588f5-ae8e-4cf3-aa9c-9abecb97391e" height="80%" width="80%" alt="VirusTotal Results"/>
 
-<br/><h3>Aalysis of Test File</h3>
+<br/><h3>Static Analysis of Test File</h3>
 
 
-<br/><h3>Sandbox</h3>
-
+<br/><h3>Dynamic Analysis</h3>
+Sandbox testing results found via Crowdstrike Falcon Sandbox search https://www.hybrid-analysis.com/sample/c161134bf3330c82eb0278fe54b2975c26301bdfdc4fc35d5344f9becf5574c7/5be894c77ca3e174272c18ab.
+<img src="https://www.hybrid-analysis.com/file-inline/5be894c77ca3e174272c18ab/screenshot/screen_9.png" alt="Microsoft Word"/>
+<img src="https://www.hybrid-analysis.com/file-inline/58e85981aac2ed5e43d9a0de/screenshot/screen_7.png" alt="Microsoft Word Prompt"/>
 
