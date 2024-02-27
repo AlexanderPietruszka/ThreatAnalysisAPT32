@@ -53,10 +53,21 @@ legitimate traffic.
 APT32 WINDSHIELD malware retrieved courtesy of https://github.com/ytisf/theZoo.
 
 <br/><h3>Check Malware Using Security Vendors</h3>
+Files are labeled as suspicious.
 <img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e46fa3e3-dffe-460e-8e5f-153f5e50419b" height="80%" width="80%" alt="Creating malware hash"/>
 <img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e30588f5-ae8e-4cf3-aa9c-9abecb97391e" height="80%" width="80%" alt="VirusTotal Results"/>
 
-<br/><h3>Static Analysis of Test File</h3>
+<br/><h3>Static Analysis of Malware File</h3>
+Searching the file revealed suspicious encoded visual basic script.
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/c439065f-5df8-4d5c-aacf-41d18a95e562" height="80%" width="80%" alt="Xorlookup"/> <br/>
+Using oletools to decode and analyze the suspect VBS code.
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/c98cea8a-e0a6-4e35-b77e-476db2ddbb6f" height="80%" width="80%" alt="Running olevbs on file"/> <br/>
+Found code that runs on document startup which displays a Windows Error Message.
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/2ebd0c91-4bc5-41e9-a78a-f4309327e5fe" height="80%" width="80%" alt="Document running on startup"/> <br/>
+Obfuscation code that runs scheduled Windows Update Task to hide malware.
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/e998408b-1bb6-4a36-a5eb-c0212116315e" height="80%" width="80%" alt="Creating malware hash"/> <br/>
+Powershell code that contacts known associated IP 80.255.3.87 to further compromise the machine.
+<img src="https://github.com/AlexanderPietruszka/ThreatAnalysisAPT32/assets/100098304/5debf928-8744-4ca6-a403-c4328724ee12" height="80%" width="80%" alt="Creating malware hash"/> <br/>
 
 
 <br/><h3>Dynamic Analysis</h3>
